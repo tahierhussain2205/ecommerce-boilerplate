@@ -1,0 +1,4 @@
+.env
+pta.txt
+node_modules
+client/node_modules
