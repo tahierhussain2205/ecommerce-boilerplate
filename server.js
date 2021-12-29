@@ -21,6 +21,7 @@ mongoose
     .catch(err => console.log(err))
 
 // Routes
+app.use('/api/admin', require('./routes/admin'))
 
 if (process.env.NODE_ENV == 'production') {
     // Serve any static files
